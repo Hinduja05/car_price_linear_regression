@@ -1,0 +1,121 @@
+
+
+body {
+    background-color: #5d86c4;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------------------------------------------
+   MAIN CONTAINER
+--------------------------------------------------- */
+
+.main {
+    background-color: #3d7a94;
+}
+
+/* ---------------------------------------------------
+   CARD DESIGN
+--------------------------------------------------- */
+
+.card {
+    background-color: rgb(117, 119, 215);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------------------------------------------
+   TITLE
+--------------------------------------------------- */
+
+h1 {
+    color: #101217;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------
+   PARAGRAPH
+--------------------------------------------------- */
+
+p {
+    text-align: center;
+    color: #304767;
+    font-size: 18px;
+}
+
+/* ---------------------------------------------------
+   SUBHEADINGS
+--------------------------------------------------- */
+
+h2, h3 {
+    color: #1f2937;
+}
+
+/* ---------------------------------------------------
+   BUTTON STYLING
+--------------------------------------------------- */
+
+div.stButton > button {
+    width: 100%;
+    background-color: #8aa9e5;
+    color: rgb(24, 33, 81);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+div.stButton > button:hover {
+    background-color: #4861ab;
+    color: rgb(33, 46, 56);
+}
+
+/* ---------------------------------------------------
+   SLIDER
+--------------------------------------------------- */
+
+.stSlider {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ---------------------------------------------------
+   PREDICTION BOX
+--------------------------------------------------- */
+
+.prediction-box {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: rgb(122, 66, 71);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0px 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* ---------------------------------------------------
+   DATAFRAME
+--------------------------------------------------- */
+
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ---------------------------------------------------
+   FOOTER
+--------------------------------------------------- */
+
+.footer {
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    margin-top: 20px;
+}
