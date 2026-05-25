@@ -19,16 +19,23 @@ st.set_page_config(
 # LOAD CSS
 # ---------------------------------------------------
 
-def load_css(file_name):
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-    with open(file_name) as f:
+css_path = os.path.join(
+    BASE_DIR,
+    "style.css"
+)
+
+def load_css(file_path):
+
+    with open(file_path) as f:
 
         st.markdown(
             f"<style>{f.read()}</style>",
             unsafe_allow_html=True
         )
 
-load_css("style.css")
+load_css(css_path)
 
 # ---------------------------------------------------
 # TITLE
